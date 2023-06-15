@@ -1,7 +1,8 @@
 from routine.api.client import RoutineClient
 from routine.model import Page, Task
+from routine.version import __version__
 
-__all__ = ["Page", "Task"]
+__all__ = ["__version__", "Page", "Task"]
 
 
 def get_all_tasks():
